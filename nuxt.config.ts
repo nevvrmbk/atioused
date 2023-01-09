@@ -11,6 +11,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { href: "/manifest.json", type: "application/json", rel: "manifest" },
+        { href: "/favicon.png", type: "image/png", rel: "icon" },
       ],
     },
   },
